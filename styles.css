@@ -1,0 +1,56 @@
+body {
+    background-color: #C4E4FF;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #eeb7f0;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    transition-duration: 1.5s;
+    background-color: #73b3e7;
+}
+
+#pictures {
+    width: 500px;
+}
+
+@media and all (max-width:800) {
+    .pictures {
+        width: 70%;
+    }
+
+    .btn {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    #pictures {
+        width: 65%;
+    }
+
+    .btn {
+       font-size: 15px;
+    }
+
+    
+}
