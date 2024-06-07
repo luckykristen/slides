@@ -1,5 +1,7 @@
 body {
     background-color: #C4E4FF;
+    width: 100%;
+    margin: 0;
 }
 
 #container {
@@ -32,9 +34,10 @@ img {
     width: 500px;
 }
 
-@media and all (max-width:800) {
+
+@media all and (max-width: 800px) {
     .pictures {
-        width: 70%;
+        width: 80%;
     }
 
     .btn {
@@ -44,13 +47,16 @@ img {
 
 @media all and (max-width: 500px) {
 
+
     #pictures {
-        width: 65%;
+        width: 60%;
     }
 
     .btn {
-       font-size: 15px;
-    }
-
+       font-size: 20px;
+    }  
     
+    #container {
+        align-items: center;
+    }
 }
